@@ -1,7 +1,8 @@
-// var nilaiAwal = 1;
-// while (nilaiAwal <= 10) {
-//     console.log('Angkot No. ' + nilaiAwal + ' beroperasi dengan baik.');
-//     nilaiAwal++;
+// var noAngkot = 1,
+//     jmlAngkot = 10;
+// while (noAngkot <= jmlAngkot) {
+//     console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik.');
+//     noAngkot++;
 // }
 
 var nilaiAwal = 1,
