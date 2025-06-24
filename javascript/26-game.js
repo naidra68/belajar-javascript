@@ -1,8 +1,8 @@
 var tanya = true;
 while (tanya) {
 
-    // Menampilkan pilihan player
-    var p = prompt('pilih : gajah, semut, orang');
+// Menampilkan pilihan player
+var p = prompt('pilih : gajah, semut, orang');
 
 // Menampilkan pilihan computer
 // membangkitkan angka random

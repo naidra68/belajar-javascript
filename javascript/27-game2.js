@@ -15,12 +15,12 @@ while (chance >= 1) {
         alert('HORE! Angka Anda ' + hasil + ' Angka yang anda tebak sama yaitu ' + rand);
         break;
     }
-    else if (p < rand) {
+    else if (p > rand) {
         hasil = 'TINGGI';
         chance -= 1;
         alert('DUH! Angka Anda ' + hasil + ' kurang tepat.\n' + p + ' adalah angka yang anda masukkan' + '\ntersisa ' + chance + ' kesempatan lagi.');
     }
-    else if (p > rand) {
+    else if (p < rand) {
         hasil = 'RENDAH';
         chance -= 1;
         alert('YAH! Angka Anda ' + hasil + ' kurang tepat.\n' + p + ' adalah angka yang anda masukkan' + '\ntersisa ' + chance + ' kesempatan lagi.');
