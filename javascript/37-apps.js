@@ -32,12 +32,17 @@ var tambahPenumpang = function(namaPenumpang, penumpang) {
 
                 return penumpang;
             }
-            else if ( penumpang[i] == namaPenumpang) {
+            else if (penumpang[i] == namaPenumpang) {
                 console.log(namaPenumpang + ' sudah ada di dalam angkot');
                 return penumpang;
             }
-            else if ( i == penumpang.length - 1){
+            else if (i == penumpang.length - 1){
                 penumpang.push(namaPenumpang);
+                return penumpang;
+            }
+            else if (penumpang[i] == namaPenumpang) {
+                penumpang[i] = namaPenumpang; 
+    
                 return penumpang;
             }
         }
@@ -46,7 +51,6 @@ var tambahPenumpang = function(namaPenumpang, penumpang) {
 var hapusPenumpang = function(namaPenumpang, penumpang) {
     if (penumpang.length == 0) {
         console.log("Angkot masih kosong");
-
         return penumpang;
     }
     else {
