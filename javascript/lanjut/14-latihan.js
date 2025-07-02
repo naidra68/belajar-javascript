@@ -6,11 +6,15 @@
 //     nim: '202051026',
 //     email: '202051026@umk.ac.id'
 // };
+// console.log(mhs);
+
 
 // const el = `<div class="mhs">
 //     <h2>${mhs.nama}</h2>
 //     <span class="nim">${mhs.nim}</span>
 // </div>`;
+// console.log(el);
+
 
 
 // 2. Looping
@@ -31,14 +35,21 @@
 
 // ];
 
+// // console.log(mhs);
+
+
 // const el = `<div class="mhs">
-
-//     ${mhs.map(m => `<ul>
-//         <li>${m.nama}</li>
-//         <li>${m.email}</li>
-//         </ul>`).join('')}
-
+//     ${mhs.map( m => `
+//         <ul>
+//             <li>${m.nama}</li>
+//             <li>${m.email}</li>
+//         </ul>
+//         `).join('')}
 // </div>`;
+
+// console.log(el);
+
+
 
 
 // 3. Pengkondisian
@@ -57,30 +68,34 @@
 //     </ul>
 // </div>`;
 
+// console.log(el);
+
 
 // 4. Nested
 // HTML Fragments bersarang
 
-const mhs = {
-    nama: 'Tri Ardian',
-    semester: 5,
-    mataKuliah: ['Rekayasa Web', 'Analisis dan Perancangan Sistem informasi', 'Pemrograman Sistem Interaktif', 'Perancangan Sistem Berorientasi Object']
-};
+// const mhs = {
+//     nama: 'Tri Ardian',
+//     semester: 5,
+//     mataKuliah: ['Rekayasa Web', 'Analisis dan Perancangan Sistem informasi', 'Pemrograman Sistem Interaktif', 'Perancangan Sistem Berorientasi Object']
+// };
 
-function cetakMataKuliah(mataKuliah) {
-    return `
-        <ol>
-            ${mataKuliah.map(mk => `<li>${mk}</li>`).join('')}
-        </ol>
-    `;
-}
+// // console.log(mhs);
 
-const el = `<div class="mhs"></div>
-    <h2>${mhs.nama}</h2>
-    <span class="semester">Semester : ${mhs.semester}</span>
-    <h4>Mata Kuliah :</h4>
-    ${cetakMataKuliah(mhs.mataKuliah)}
-`
+// function cetakMataKuliah(mataKuliah) {
+//     return `
+//         <ol>
+//             ${mataKuliah.map(mk => `<li>${mk}</li>`).join('')}
+//         </ol>
+//     `;
+// }
+
+// const el = `<div class="mhs"></div>
+//     <h2>${mhs.nama}</h2>
+//     <span class="semester">Semester : ${mhs.semester}</span>
+//     <h4>Mata Kuliah :</h4>
+//     ${cetakMataKuliah(mhs.mataKuliah)}
+// `
 
 
-document.body.innerHTML = el;
+// document.body.innerHTML = el;
