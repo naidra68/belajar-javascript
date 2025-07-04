@@ -1,40 +1,52 @@
 // Tagged Templates
 
+
+// TODO Contoh Penggunaan
+
 // const nama = 'Tri Ardian';
 // const umur = 33;
 
 // function coba(strings, ...values) {
 
-//     // Manual dengan forEach
+    // * Perilaku tagged function template
+    // return 'coba';
 
-//     // let result = '';
-//     // strings.forEach((str, i) => {
-//     //     result += `${str}${values[i] || ''}`;
-//     // });
-//     // return result;
 
-//     // Menggunakan method reduce
+    // * Manual dengan forEach
 
-//     return strings.reduce((result, str, i) => `${result}${str}${values[i] || ''}`, '');
+    // let result = '';
+    // strings.forEach((str, i) => {
+    //     result += `${str}${values[i] || ''}`;
+    // });
+    // return result;
+
+    // * Menggunakan method reduce
+
+    // return strings.reduce((result,str,i) => `${result}${str}${values[i] || ''}`, '');
 // }
 
 // const str = coba`Halo, nama saya ${nama}, saya ${umur} tahun.`;
 // console.log(str);
 
 
-// Studi Kasua sederhana
+
+
+// TODO Studi Kasus sederhana
 
 // const nama = 'Tri Ardian';
 // const umur = 33;
 // const email = 'ardian.crazy@gmail.com';
 
 // function highlight(strings, ...values) {
-    
-//     return strings.reduce((result, str, i) => `${result}${str}<span class="hl">${values[i] || ''}</span>`, '');
+//     return strings.reduce((result,str,i) => `${result}${str}<span class='hl'>${values[i] || ''}</span>`, '');
 // }
 
-// const str = highlight`Halo, nama saya ${nama}, saya ${umur} tahun, dan email saya adalah ${email}.`;
 
+// const str = 
+// highlight`
+// Nama : ${nama}
+// <br>Umur : ${umur}
+// <br>Email : ${email}`;
 // document.body.innerHTML = str;
 
 

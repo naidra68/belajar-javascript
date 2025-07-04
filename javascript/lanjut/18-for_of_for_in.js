@@ -4,6 +4,9 @@
 // TODO Looping Array
 // adalah sebuah looping yang dapat menelusuri iterable object.
 
+
+// * contoh penggunaan
+
 // const mhs = ['Ardian','Eko','Sadono'];
 
 // ? Looping menggunakan for.
@@ -49,7 +52,7 @@
 
 // TODO NodeList
 
-const liNama = document.querySelectorAll('.nama');
+// const liNama = document.querySelectorAll('.nama');
 // console.log(liNama);
 
 // liNama.forEach(n => console.log(n.innerHTML));

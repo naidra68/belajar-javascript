@@ -1,7 +1,9 @@
-// TODO Distructring Array
+// TODO Distructuring Array
+
+
+// * Contoh Penggunaan
 
 // const coba = ['satu','dua','tiga'];
-
 // const [a,b,c] = coba;
 
 // console.log(a); // satu
@@ -9,8 +11,9 @@
 // console.log(c); // tiga
 
 
-// const perkenalan = ['Halo','nama','saya','Tri Ardian'];
+// * Contoh penggunaan apabila hanya menampilkan beberapa array
 
+// const perkenalan = ['Halo','nama','saya','Tri Ardian'];
 // // const [salam,satu,dua,tiga] = perkenalan;
 // const [salam, , , nama] = perkenalan;
 
@@ -18,7 +21,7 @@
 // console.log(nama);
 
 
-// TODO swap items
+// * Contoh penggunaan untuk swap items didalam variable
 
 // let a = 1;
 // let b = 2;
@@ -28,7 +31,7 @@
 // console.log(b);
 
 
-// TODO return value pada function
+// * Contoh penggunakan dialam function untuk mengembalikan nilai
 
 // function coba() {
 //     return [1,2];
@@ -39,7 +42,7 @@
 
 
 
-// Rest Parameter
+// * Rest Parameter
 
 // const [a, ...values] = [1,2,3,4,5];
 // console.log(a);
@@ -48,7 +51,10 @@
 
 
 
-// TODO Distructring Object
+// TODO Distructuring Object
+
+
+// * Contoh pengunaan
 
 // const mhs = {
 //     nama: 'Tri Ardian',
@@ -64,14 +70,14 @@
 
 
 
-// TODO Assignment tanpa deklarasi object
+// * Assignment tanpa deklarasi object
 
 // ({ nama, umur} = {nama: 'Tri Ardian',umur: 33});
 // console.log(nama);
 
 
 
-// TODO Assignment ke variable baru
+// * Assignment ke variable baru
 
 // const mhs = {
 //     nama: 'Tri Ardian',
@@ -91,7 +97,7 @@
 
 
 
-// TODO memberikan default value
+// * memberikan default value
 
 // const mhs = {
 //     nama: 'Tri Ardian',
@@ -104,7 +110,7 @@
 
 
 
-// TODO memberi nilai default + assignment ke variable baru
+// * memberi nilai default + assignment ke variable baru
 
 // const mhs = {
 //     nama: 'Tri Ardian',
@@ -119,7 +125,7 @@
 
 
 
-// TODO Rest Parameter
+// * Rest Parameter
 
 // const mhs = {
 //     nama: 'Tri Ardian',
@@ -134,7 +140,7 @@
 
 
 
-//  mengambil field pada object, setelah dikirim sebagai parameter untuk function
+// * mengambil field pada object, setelah dikirim sebagai parameter untuk function
 
 // const mhs = {
 //     id: 123,

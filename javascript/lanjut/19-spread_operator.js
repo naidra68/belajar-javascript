@@ -1,4 +1,4 @@
-// Spread Operator
+// TODO Spread Operator
 // memecah (expand / unpack) iterables menjadi single element.
 
 
@@ -7,17 +7,25 @@
 
 
 
-// menggabungkan 2 array
+// TODO menggabungkan 2 array
 // const mhs = ['Ardian','Eko','Sadono'];
 // const dosen = ['Windi','Bahtiar','Qyara'];
+
+// * menggunakan spread operator
 // const orang = [...mhs, ...dosen];
+
+// * menambahkan value array ditengah-tengah penggabungan array
 // const orang = [...mhs, 'Aji', ...dosen];
+
+// * mengunakan method untuk menggabungkan 2 array
 // const orang = mhs.concat(dosen);
+
 // console.log(orang);
 
 
 
-// mengcopy array
+
+// TODO mengcopy array
 
 // ? ketika menggunakan code dibawah ini akan tampak baik-baik saja, namun sebenarnya ini bukanlah mengcopy array.
 // const mhs = ['Ardian','Eko','Sadono'];
@@ -40,17 +48,18 @@
 // console.log(mhs1);
 
 
+// TODO Contoh penggunaan lain dari spread operator
 
 // const liMhs = document.querySelectorAll('li');
 
-// cara manual dengan for looping
+// * cara manual dengan for looping
 // const mhs = [];
 // for( let i = 0; i < liMhs.length; i++) {
 //     mhs.push(liMhs[i].textContent);
 // }
 // console.log(mhs);
 
-// dengan method map
+// * dengan method map dan spread operator
 // const mhs = [...liMhs].map(m => m.textContent);
 
 // console.log(mhs);
@@ -58,7 +67,7 @@
 
 
 
-// Studi Kasus
+// TODO Studi Kasus
 
 const nama = document.querySelector('.nama');
 const huruf = [...nama.textContent].map(h => { if(h ===' '){h = '&nbsp;'} return `<span>${h}</span>`}).join('');
