@@ -1,0 +1,23 @@
+[
+    {
+        "nama": "Tri Ardian",
+        "nim": "202051026",
+        "email": "ardian.crazy@gmail.com",
+        "jurusan": "Teknik Informatika",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "Eko Purniawan",
+        "nim": "201732144",
+        "email": "ekopurniawan@gmail.com",
+        "jurusan": "Teknik Mesin",
+        "idDosenWali": 2
+    },
+    {
+        "nama": "Pur Sadono",
+        "nim": "201834511",
+        "email": "pursadono@gmail.com",
+        "jurusan": "Teknik Industri",
+        "idDosenWali": 3
+    }
+]
