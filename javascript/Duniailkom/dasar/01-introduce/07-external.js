@@ -1,0 +1,1 @@
+document.getElementById('myClick').addEventListener("click", () => document.getElementById('H1').innerHTML='Hello World');
